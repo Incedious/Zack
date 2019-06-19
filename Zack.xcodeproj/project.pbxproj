@@ -17,6 +17,7 @@
 		9EC5FED622BB02F300B6C703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5FED422BB02F300B6C703 /* LaunchScreen.storyboard */; };
 		9EC5FEE122BB02F300B6C703 /* ZackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5FEE022BB02F300B6C703 /* ZackTests.swift */; };
 		9EC5FEEC22BB02F300B6C703 /* ZackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5FEEB22BB02F300B6C703 /* ZackUITests.swift */; };
+		9EC5FEFA22BB034A00B6C703 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5FEF922BB034A00B6C703 /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9EC5FEE722BB02F300B6C703 /* ZackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC5FEEB22BB02F300B6C703 /* ZackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZackUITests.swift; sourceTree = "<group>"; };
 		9EC5FEED22BB02F300B6C703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC5FEF922BB034A00B6C703 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		9EC5FEC422BB02F300B6C703 /* Zack */ = {
 			isa = PBXGroup;
 			children = (
+				9EC5FEF922BB034A00B6C703 /* Cat.swift */,
 				9EC5FEC522BB02F300B6C703 /* AppDelegate.swift */,
 				9EC5FEC722BB02F300B6C703 /* GameScene.sks */,
 				9EC5FEC922BB02F300B6C703 /* Actions.sks */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC5FEFA22BB034A00B6C703 /* Cat.swift in Sources */,
 				9EC5FECC22BB02F300B6C703 /* GameScene.swift in Sources */,
 				9EC5FECE22BB02F300B6C703 /* GameViewController.swift in Sources */,
 				9EC5FEC622BB02F300B6C703 /* AppDelegate.swift in Sources */,
